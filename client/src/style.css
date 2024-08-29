@@ -1,0 +1,50 @@
+.custom-dropdown-toggle {
+    background-color: lightgrey !important;
+    color:black !important;
+    border-color: black !important;
+   
+  }
+  
+  .custom-dropdown-toggle::after {
+    border-top-color: black;
+  }
+  
+  .custom-dropdown-toggle:focus,
+  .custom-dropdown-toggle:active {
+    background-color: lightgrey !important;
+    box-shadow: none !important;
+  }
+  
+  .dropdown-menu {
+    background-color: white;
+    color: black;
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: lightgrey;
+  }
+
+  .dropdown-menu .selected {
+    color: black !important;
+  }
+
+  .custom-button-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: grey;
+    min-height: 500px;
+    padding: 10px;
+    width:250px;
+  }
+  
+  .custom-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .custom-button:hover {
+    background-color: grey !important;
+  }
+  

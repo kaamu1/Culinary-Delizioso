@@ -1,0 +1,33 @@
+{
+  "name": "restaurant_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines":{
+    "node":"16.17.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.3.0",
+    "nodemon": "^2.0.22",
+    "react-redux": "^8.1.1",
+    "react-stripe-checkout": "^2.6.3",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
+    "router": "^1.3.8",
+    "stripe": "^12.11.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

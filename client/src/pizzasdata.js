@@ -1,0 +1,74 @@
+const pizzas = [
+    {
+        name: "Tandori Paneer Cheese",
+        variants: ["small", "medium", "large"],
+        prices: [
+            {
+                small: 200,
+                medium: 350,
+                large: 400,
+            },
+        ],
+        category: "veg",
+        image: "https://i.pinimg.com/originals/72/b2/14/72b2141e2ca565f2e92a58910fc2afd2.jpg",
+        description: "cheese, Capsicum, paneer",
+    },
+    {
+        name: "Onion Paneer",
+        variants: ["small", "medium", "large"],
+        prices: [
+            {
+                small: 200,
+                medium: 350,
+                large: 400,
+            },
+        ],
+        category: "veg",
+        image: "https://th.bing.com/th/id/OIP.u8rmjvGw_xShZ_bBPQAfjgHaHa?pid=ImgDet&rs=1",
+        description: "Capsicum, paneer, Onion",
+    },
+    {
+        name: "Veggie_Pizza",
+        variants: ["small", "medium", "large"],
+        prices: [
+            {
+                small: 200,
+                medium: 350,
+                large: 400,
+            },
+        ],
+        category: "veg",
+        image: "https://media-cdn.tripadvisor.com/media/photo-s/12/d6/c3/1a/photo1jpg.jpg",
+        description: "Capsicum, Mushroom, Onion",
+    },
+    {
+        name: "Margherita pizza",
+        variants: ["small", "medium", "large"],
+        prices: [
+            {
+                small: 220,
+                medium: 350,
+                large: 400,
+            },
+        ],
+        category: "veg",
+        image: "https://th.bing.com/th/id/R.0de5d539432716da8e0ff2f95e7b3b08?rik=whvcSwnFROq2xw&riu=http%3a%2f%2fi1.wp.com%2fwww.veryeatalian.com%2fwp-content%2fuploads%2f2015%2f03%2fPizza-Margherita-with-Cherry-Tomatoes-veryEATalian-9-e1426682752574.jpg&ehk=2IxuhZSM9tNjPkopwsSLmhJREieDXdgcypwAbt%2b24es%3d&risl=&pid=ImgRaw&r=0",
+        description: "Capsicum, paneer, Onion",
+    },
+    {
+        name: "Tandoori Chicken",
+        variants: ["small", "medium", "large"],
+        prices: [
+            {
+                small: 280,
+                medium: 360,
+                large: 450,
+            },
+        ],
+        category: "non-veg",
+        image: "https://911foodexpress.com/wp-content/uploads/2017/06/Chicken-Pizza.jpg",
+        description: "Capsicum, paneer, Onion",
+    },
+];
+
+export default pizzas;
